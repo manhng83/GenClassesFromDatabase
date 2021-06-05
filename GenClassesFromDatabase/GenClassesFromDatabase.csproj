@@ -299,6 +299,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>"C:\Users\Adamo\Source\Repos\AzDeploy\AzDeploy.Build\bin\Release\netcoreapp3.1\AzDeploy.Build.exe" "C:\Users\Adamo\Source\Repos\Postulate.Zinger\AzDeploy.json"</PostBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
   </PropertyGroup>
 </Project>
